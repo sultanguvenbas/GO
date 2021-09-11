@@ -1,0 +1,8 @@
+POST http://localhost:8080/post/post
+Content-Type: application/json
+token: 2021-09-10T15:46:58.5518595+03:00fd3c631faeaf
+
+{
+  "content" : "hellooooo selam it is me"
+
+}
