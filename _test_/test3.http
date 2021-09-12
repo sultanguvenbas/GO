@@ -1,4 +1,4 @@
-GET http://localhost:8080/post/getSinglePost/133
+GET http://localhost:8080/post/getSinglePost/140
 
 
 

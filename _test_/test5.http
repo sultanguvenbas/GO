@@ -1,2 +1,2 @@
-GET http://localhost:8080/comment/getAllComments/129
+GET http://localhost:8080/comment/getAllComments/134
 Content-Type: application/json

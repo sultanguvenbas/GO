@@ -20,6 +20,5 @@ func PostDatabase(token, content, dataCreated, rnNick, rnColor string) (error, i
 		fmt.Println("Error: when you are inserting post", err.Error())
 		return err, 0
 	}
-	err = database.Db.QueryRow("INSERT INTO post_user_vn_table (postid, nickname, color, userid) values ($1,$2,$3,(select userid from users_table where token=$4)) returning postid", postId, rnNick, rnColor, token).Scan(&postId)
 	return err, postId
 }
